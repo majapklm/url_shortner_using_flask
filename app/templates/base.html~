@@ -1,0 +1,6 @@
+<html><h1><h1 style="text-align:center;"><font face="arial" color="red"><i><b>MAHIN'S URL SHORTNER</i></b></h1><h2>Paste your URL here</h2>
+<form action="" method="post" name="url">
+{{form.hidden_tag()}}
+<p>{{form.url(size=90)}}<br></p><p><input type="submit" value="shorten URL"></p></form>
+</html>
+

@@ -1,0 +1,9 @@
+<html><h1><h1 style="text-align:center;"><font face="arial" color="red"><i><b>MAHIN'S URL SHORTNER</i></b></h1><hr><hr><br>
+<h2><font color="blue">Paste your URL here</h2>
+<form action="" method="post" name="url">
+{{form.hidden_tag()}}
+<p>{{form.url(size=50)}}<br></p><p><input type="submit" value="shorten URL" color="red"></p></form><br><br><br><br><hr><hr>
+{%for o in out %}
+<div><p><a href=http://127.0.0.1:5000/{{o[0]}}>http://127.0.0.1:5000/{{o[0]}}</a></div></p>
+{%endfor%}
+</html>
